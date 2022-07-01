@@ -8,6 +8,7 @@
   
 body {
     font-family: "Pokemon";
+    font-size:x-small;
 }
 
 * {
@@ -15,3 +16,20 @@ body {
     flex-flow: column wrap;
     align-content: center;
 }
+
+div {
+    display: grid;
+    grid-template-rows: 200px 50px;
+    grid-template-columns: 200px 200px;
+}
+
+h2.info {
+    align-content: flex-start;
+}
+
+img{
+width: 200px;  
+height: 200px;  
+object-fit: fill;
+}
+
