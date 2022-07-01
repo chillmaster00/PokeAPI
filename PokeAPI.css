@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Pokemon";
+    src: url("PokemonGB.ttf")
+      format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+  
+body {
+    font-family: "Pokemon";
+}
+
+* {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
