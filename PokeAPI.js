@@ -44,7 +44,7 @@ async function getapi(url) {
     if (response2) {
         hideloader();
     }
-    document.getElementById("dex").innerHTML = data3.flavor_text_entries[langCount].flavor_text;
+    document.getElementById("dex").innerHTML = data3.flavor_text_entries[langCount].flavor_text.replace('', ' ');
 }
 
 // Calling that async function

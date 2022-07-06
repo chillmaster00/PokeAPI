@@ -6,9 +6,19 @@
     font-style: normal;
 }
   
+
 body {
     font-family: "Pokemon";
     font-size:x-small;
+    color:white;
+    padding: 25px;
+    position: absolute;
+    top: 17%;
+    left: 32%;
+    background: url(GameboyColor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 * {
@@ -27,9 +37,13 @@ h2.info {
     align-content: flex-start;
 }
 
-img{
+img.pk{
 width: 200px;  
 height: 200px;  
 object-fit: fill;
+}
+p{
+    width: 400px;  
+    height: 200px; 
 }
 
